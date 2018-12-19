@@ -1,0 +1,24 @@
+Scraper with Selenium and Chrome headless
+
+Developed and tested for macOS, Python3.6
+
+Instructions:
+
+- Create python virtual environment.
+  - Using Pipenv here, but other options work as well.
+  - If using Pipenv, run `pipenv --three` , then run `pipenv shell`
+
+- Install selenium with `pipenv install selenium` or `pip install selenium` if not using pipenv
+
+- Install the chromedriver through homebrew with these three commands:
+
+`brew update`
+`brew tap homebrew/cask`
+`brew cask install chromedriver`
+
+- Then run demo.py to verify that everything works with `python3 demo.py`
+It should generate a png image of the linkedin homepage in the same directory as the demo.py script.
+
+Notes:
+
+This version runs with `selenium-3.141.0`
